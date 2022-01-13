@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form</title>
+    </style>
+    <nav>
+            <li><a href="http://topdignity.com">home</a> 
+              <li><a href="http://topdignity.com/about-topdignity/">about this site</a></li>
+            <li><a href="http://topdignity.com/contact us">contact information</a></li>
+    </nav>
+</head>
+<body>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        Your browser does not support the HTML canvas tag.
+        </canvas>   
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.moveTo(0, 0);
+            ctx.lineTo(200, 100);
+            ctx.stroke();
+            </script>     
+    <form>
+    <h1>login page</h1>
+        <label for="username">
+            username:
+        <input type="text" id="firsttextinput" name="firsttextinput">
+    </label>
+    <p>
+    <label for="password">
+        password:
+        <input type="password" id="password">
+    </label>
+</p>
+<p>
+    <label for="reg no">
+        reg no:
+        <input type="reg no" id="reg no">
+    </label>
+</p>
+<p>
+    <label for="email">
+        email:
+        <input type="email" id="email">
+    </label>
+</p>
+<p>
+<button type="button">login</button>
+</p>
+</form>
+    <table>
+        <tr>
+            <th>name</th>
+            <th>weight</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>james</td>
+            <td>120g</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>mike</td>
+            <td>200g</td>
+            <td>56</td>
+        </tr>
+        <tr>
+            <td>karo</td>
+            <td>55g</td>
+            <td>26</td>
+         </tr>
+    </table>
+  <!--add semantic tags to this html-->  
+  <header>
+          <h1>learning wed development and mobile app development</h1>
+          <h2>a site dedicated to developing applications with coding</h2>
+  </header>
+  <article>
+      <hgroup>
+          <h1>using a semantic html element</h1>
+          <h2>a complete guide on indicating meaning for your web page's content</h2>
+          <h3><time datetime="2021-11-12">november 12 2021 </time></h3> </hgroup>
+          <section>
+              <h4><code>header</code></h4>
+              <p>use header elements for content that is consistent across your web page.</p>
+              <p>header may also contain your site's navigation component.</p>
+          </section>
+  <section>
+  <h4><code>footer</code></h4>
+  <p>use footer element to store "footer" content, like author/copyright info</p>
+  <section>
+    <h4><code>nav</code></h4>
+    <p>use nav element to store elements associated with sight navigation.</p>
+    <p>navigation <code>anchor</code>tags are often wrapped in an unorder list element.</p>
+  </section>
+</article> 
+<footer>
+    <p>&copy; topdignity.org 2021</p>
+</footer>
+</body>
+</html>

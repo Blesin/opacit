@@ -1,0 +1,52 @@
+html,
+body {
+  background: rgb(8, 116, 224);
+}
+
+.christmasdaddy {
+  --topdot: #eee;
+  --capbottom: #fff;
+  --bodypaint: rgb(253, 21, 21);
+  width: 80vmin;
+  height: 85vmin;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hat {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  background: var(--bodypaint);
+  border-radius: 120% 20% 0 0;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 0) rotate(2deg);
+}
+
+.hat::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -17%;
+  left: -5%;
+  width: 110%;
+  height: 40%;
+  border-radius: 100% / 50%;
+  box-shadow: inset 0 4vmin var(--capbottom);
+  transform: rotate(-2deg);
+}
+
+.hat::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -5vmin;
+  top: -15%;
+  width: 8vmin;
+  height: 8vmin;
+  border-radius: 50%;
+  background: var(--topdot);
+}

@@ -1,0 +1,147 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #4d6ca13b;
+}
+a:link,
+a:visited {
+  color: powderblue;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  background-color: rgb(12, 24, 134);
+  padding-left: 20px 0;
+}
+header {
+  background-color: #081c41;
+}
+ul {
+  border: none;
+  padding: none;
+  width: none;
+  float: right;
+}
+.about-us {
+  text-align: center;
+}
+/* add margin and padding to this divs*/
+.mission-border {
+  width: 300px;
+  padding: 20px;
+  height: 530px;
+  position: relative;
+  left: 30px;
+  border-radius: 50px;
+  background: #61c00869;
+  box-shadow: 10px 10px 20px #3b506d;
+}
+.vision-border {
+  width: 300px;
+  height: 530px;
+  position: relative;
+  left: 600px;
+  bottom: 500px;
+  border-radius: 50px;
+  background: #f85e0573;
+  box-shadow: 10px 10px 20px #3b506d;
+}
+.about-border {
+  width: 300px;
+  height: 530px;
+  position: relative;
+  left: 1150px;
+  bottom: 1000px;
+  border-radius: 50px;
+  background: #e60a914d;
+  box-shadow: 10px 10px 20px #3b506d;
+}
+.service-text {
+  padding-top: 30px;
+  position: relative;
+  bottom: 900px;
+  text-align: center;
+}
+.service-box-1 {
+  position: relative;
+  bottom: 800px;
+  right: 300px;
+  margin: auto;
+  width: 500px;
+  height: 100px;
+  border-radius: 50px;
+  background: #0ab1db2a;
+  box-shadow: 10px 10px 20px#3b506d;
+}
+.service-box-2 {
+  position: relative;
+  bottom: 900px;
+  left: 300px;
+  margin: auto;
+  width: 500px;
+  height: 100px;
+  border-radius: 50px;
+  background: #0ab1db2a;
+  box-shadow: 10px 10px 20px#3b506d;
+}
+.service-box-3 {
+  position: relative;
+  bottom: 800px;
+  right: 300px;
+  margin: auto;
+  width: 500px;
+  height: 100px;
+  border-radius: 50px;
+  background: #0ab1db2a;
+  box-shadow: 10px 10px 20px #3b506d;
+}
+.service-box-4 {
+  position: relative;
+  bottom: 900px;
+  left: 300px;
+  margin: auto;
+  width: 500px;
+  height: 100px;
+  border-radius: 50px;
+  background: #0ab1db2a;
+  box-shadow: 10px 10px 20px #3b506d;
+}
+.login-box {
+  position: relative;
+  right: 300px;
+  bottom: 800px;
+  margin: auto;
+  width: 500px;
+  height: 600px;
+  background: #0ab1db2a;
+  box-shadow: 10px 10px 20px #3b506d;
+}
+.contact-box {
+  position: relative;
+  left: 300px;
+  bottom: 1400px;
+  margin: auto;
+  width: 500px;
+  height: 600px;
+  background: #0ab1db2a;
+  box-shadow: 10px 10px 20px #3b506d;
+}
+h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+h3 {
+  text-align: center;
+  font-weight: bolder;
+}
+p {
+  text-transform: capitalize;
+  text-align: center;
+  padding:20px ;
+}
+footer{border: 2px solid;
+  background-color: #3b506d;
+  height: 60px;
+  color: aliceblue;
+}

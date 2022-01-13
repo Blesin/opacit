@@ -1,0 +1,54 @@
+img {
+  width: 100px;
+  border-radius: 50px;
+  height: 100px;
+  float: left;
+}
+ol,li {
+color: blue;
+font-weight: bolder;
+}
+#aboutidtable {
+  font-size: 1em;
+  font-style: italic;
+  color: rgb(73, 39, 73);
+  border: rgb(179, 28, 53);
+  display: table-header-group;
+  border-collapse: collapse;
+}
+.nav-wrapper {
+  margin-right: 20px;
+  font-size: em;
+  text-transform: uppercase;
+}
+.heading {
+  color: lightblue;
+  text-align: center;
+  text-shadow: tomato;
+}
+.body {
+  text-align: center;
+}
+.username {
+  color: rgb(89, 18, 155);
+  font-size: inherit;
+  font-weight: bold;
+  font-stretch: semi-expanded;
+  float: inline-end;
+  text-align: center;
+}
+h3 > ul {
+  font-weight: normal;
+  color: black;
+}
+p {
+  color: black;
+}
+#aboutidtopic {
+  font-style: initial;
+  color: lawngreen;
+}
+body {
+  background-color: rgba(255, 99, 100, 55);
+  font-size: small;
+}
